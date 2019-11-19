@@ -60,10 +60,10 @@ class Owner
       pet.owner = nil}
   end
   
-  def list_pets
-    self.pets.collect {|pets| pets.owner}
+   def list_pets
+     self.pets.collect {|pets| pets.owner}
     "I have #{self.dogs.count} dog(s), and #{self.cats.count} cat(s)."
-  end
+   end
 end
 
  
